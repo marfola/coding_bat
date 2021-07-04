@@ -15,7 +15,12 @@ This creates the virtual environment for us.
 
 Right after you install the virtual environment, you can install a third party linting package by typing the following code into the terminal.
 
-1. pip install pylint pytest pytest-watch pytest-tesmon pytest-describe
+
+--python
+
+    pip install pylint pytest pytest-watch pytest-testmon pytest-describe
+
+1. pip install pylint pytest pytest-watch pytest-testmon pytest-describe
     * if you get an error message telling you to upgrade pip then just go ahead and upgrade it by typing  **py -m pip install --upgrade pip** 
 2. pip freeze > requirements.txt
 3. git add requirements.txt

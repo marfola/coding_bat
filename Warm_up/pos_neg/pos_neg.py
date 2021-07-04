@@ -8,7 +8,6 @@ then return True only if both are negative.
 
 def pos_neg(a, b, negative):
   '''
-  If negative is true and a and b are negative then the code will return true
   if negative then we check to see if the a and b are negative. If not negative then we check to see if one of the interger is positive>"
   '''
   if negative:
